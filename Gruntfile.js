@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         connect: {
             server: {
                 options: {
-                    protocol: 'https',
+                    protocol: 'http',
                     base: 'www-root',
                     port: 8001,
                     keepalive: true
